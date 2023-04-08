@@ -1,0 +1,19 @@
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: rgb(226, 226, 250)}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(49, 141, 233);
+  color: white;
+}
+table{
+  width: 100%;
+}
